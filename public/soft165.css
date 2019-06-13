@@ -1,0 +1,35 @@
+
+
+.navbar-brand
+{
+	position: relative;
+	background: url(../public/images/socem_logo.jpg);
+	width: 96px;
+	left: 10px;
+	max-height: 96px; /* height of the navbar */
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar-nav.navbar-center.li{
+    padding: auto;
+}
+.navbar-nav.navbar-center.a {
+    text-decoration: none;
+    color: #000;
+    a:hover, a:focus{
+				color: blue;
+				text-decoration: none;
+				outline: none;
+			}
+} 
+.navbar-nav.navbar-center.active{
+    font-size: 17px;
+    color: red;
+    border-bottom: 2px solid blue;
+}
+
